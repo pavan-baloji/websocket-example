@@ -4,7 +4,7 @@ metadata:
   name: tornado-gateway
 spec:
   selector:
-    istio: ingressgateway
+    istio: aks-istio-ingressgateway-external
   servers:
   - port:
       number: 8888
